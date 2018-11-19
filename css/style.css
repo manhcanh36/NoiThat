@@ -1,0 +1,360 @@
+.menu-nav {
+    clear: both;
+}
+.menu-nav:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+.banner {
+    margin-top: -170px;
+    width: 100%;
+    height: 936px;
+    background: url("../images/header.jpg") top center;
+    display: table;
+    margin-bottom: 100px;
+}
+.banner h1 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 83px;
+}
+.banner h1 span {
+    color: #f66c27;
+}
+.header {
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 170px;
+}
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.main-menu ul li {
+    float: left;
+}
+.main-menu ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #9a9a9a;
+    font-size: 20px;
+    text-decoration: none;
+}
+.main-menu ul li a:hover {
+    color: #f48146;
+}
+.main-menu ul li i {
+    display: inline-block;
+    color: #9a9a9a;
+    font-size: 12px;
+}
+footer {
+    background: linear-gradient(to right, #f48146 50%, #ffffff 50%);
+}
+footer .contact-form {
+    box-sizing: border-box;
+    background: #f48146;
+    height: 704px;
+}
+
+footer .content-form {
+    margin-top: 138px;
+    margin-right: 100px;
+    background: #FFF;
+    padding: 60px;
+}
+
+footer .content-form input, textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    color: #777777;
+    font-size: 15px;
+}
+
+footer .contact-form-row.first-row input {
+    width: 40%;
+}
+
+footer.contact-form-row.first-row:after {
+    content: '';
+    clear: both;
+}
+
+footer .contact-form-row.first-row input[name='email'] {
+    float: right;
+}
+
+footer .content-form textarea {
+    width: 100%;
+    height: 150px;
+}
+
+footer .content-form textarea:focus, input:focus{
+    outline: none;
+}
+
+footer .submit-row {
+    text-align: center;
+}
+
+footer .content-form input[type="submit"] {
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 6px 20px;
+    border-radius: 32px;
+}
+
+footer .contact-form-row {
+    margin-bottom: 20px;
+}
+
+footer .contact-info {
+    box-sizing: border-box;
+    padding-left: 50px;
+    height: 704px;
+}
+
+footer .contact-info h3 {
+    margin-top: 120px;
+    font-size: 34px;
+}
+
+footer .line-contact-info {
+    padding: 20px 0;
+}
+
+footer .line-contact-info h4 {
+    font-size: 25px;
+    color: #333333;
+}
+
+footer .line-contact-info p {
+    font-size: 14px;
+    max-width: 305px;
+}
+
+footer .social-icon i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #bbbbbb;
+    margin-right :20px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+footer .social-icon i:hover {
+    background: #f48146;
+}
+.our-project {
+    padding: 50px 0;
+}
+
+.our-project h3 {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.our-project .project-col img {
+    max-width: 100%;
+    padding: 5px;
+    border: 1px solid #eeeeee;
+}
+
+.our-project .project-col-1 img{
+    height: 300px;
+    width: auto;
+}
+
+.our-project .project-col-1 .project-item {
+    margin-bottom: 120px;
+}
+
+.our-project.project-col-1 p {
+    margin-bottom: 35px;
+
+}
+
+.our-project .project-col-1 a {
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 32px;
+}
+
+.our-project .project-col-2 img{
+    height: 650px;
+    width: auto;
+}
+
+.our-project .project-col-3 img{
+    height: 300px;
+    width: auto;
+    margin-bottom: 48px;
+}
+.dream{
+    padding: 50px 0;
+    margin-bottom: 100px;
+}
+.you-dream .dream1 img{
+    padding: 5px;
+    width: 620px;
+    height: 440px;
+    border: 1px solid #eee;
+    position: relative;
+    box-shadow: 30px 30px 2px #9a9a9a;
+    -moz-box-shadow: 30px 30px 2px;
+    -webkit-box-shadow: 30px 30px 40px #9a9a9a;
+}
+.you-dream .dream2 img{
+    background: white;
+    padding: 5px;
+    border: 1px solid#eee;
+    width: auto;
+    height: 210px;
+    position: absolute;
+    top: 350px;
+    box-shadow: 30px 30px 2px #9a9a9a;
+    -moz-box-shadow: 30px 30px 2px;
+    -webkit-box-shadow: 30px 30px 40px #9a9a9a;
+}
+.you-dream .dream3 h2{
+    margin-bottom: 30px;
+}
+.you-dream .dream3 h5{
+    display: inline-block;
+    color: #f48146;
+    word-spacing: 80px;
+}
+.you-dream .dream3 p{
+    margin-bottom: 20px;
+    color: #9a9a9a;
+}
+.you-dream .dream3 a{
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 32px;
+}
+.how-can h2{
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+.how-can .how-can1 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 70px;
+}
+.how-can .how-can1 p{
+    color: #9a9a9a;
+}
+.how-can1 a{
+    color: black;
+    text-decoration: none;
+}
+.how-can1 i{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.how-can1:hover{
+    color: #f66c27;
+    box-shadow: 10px 10px 2px #777777;
+    -moz-box-shadow: 10px 10px 2px;
+    -webkit-box-shadow: 10px 10px 50px #777777;
+}
+.submit {
+    text-align: center;
+    background-color: #f66c27;
+    height: 360px;
+}
+.submit .text h5{
+    margin-top: -180px;
+    color: white;
+}
+.submit .subseribe h1{
+    opacity: 0.2;
+    color: #bbbbbb;
+    font-size: 150px;
+    margin-top: 100px;
+}
+.submit .mail{
+    margin-top: -100px;
+}
+.submit .mail button{
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 2px #777777;
+    -moz-box-shadow: 5px 5px 2px;
+    -webkit-box-shadow: 5px 5px 20px #777777;
+    border: none;
+    margin-left: 15px;
+}
+.submit .mail input{
+    padding: 10px 100px;
+    color: #c7c7c7;
+    background-color: #f3f2f2;
+    border-radius: 30px;
+    padding-left: 10px;
+    border: 1px solid white;
+}
+.client{
+    background-color: #f8f8f8;
+    height: 590px;
+}
+.client h2{
+    margin-top: -250px;
+    text-align: center;
+    width: 100%;
+}
+.client img{
+    margin: -100px 500px 0px 500px;
+}
+.client p{
+    color: #9a9a9a;
+    text-align: center;
+    max-width: 800px;
+    margin-left: 200px;
+}
+.client h1{
+    color: white;
+    font-size: 400px;
+    margin-top: -120px;
+    opacity: 0.5;
+}
+/*
+ * CSS Intro
+ */
+.intro3 {
+    margin-top: 100px;
+}
+
+.intro3 h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro3 p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #9a9a9a;
+}
