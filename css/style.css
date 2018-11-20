@@ -324,19 +324,49 @@ footer .social-icon i:hover {
     width: 100%;
 }
 .client img{
-    margin: -100px 500px 0px 500px;
+    margin: -200px 500px 50px ;
 }
-.client p{
+.client .bring p{
     color: #9a9a9a;
     text-align: center;
     max-width: 800px;
-    margin-left: 200px;
+    margin: -50px 200px 20px 200px;
 }
 .client h1{
     color: white;
     font-size: 400px;
     margin-top: -120px;
     opacity: 0.5;
+}
+.client .seria p{
+    margin: 5px 520px;
+    color: #9a9a9a;
+}
+.client .seria .mella{
+    color: #f66c27;
+}
+.pagination {
+    padding: 20px;
+    margin: 10px 520px;
+    height: 50px;
+    width: 50px;
+}
+
+.page {
+    display: inline-block;
+    padding: 0px 5px;
+    margin-right: 1px;
+    border-radius: 3px;
+    border: solid 1px #c0c0c0;
+    background: #e9e9e9;
+}
+
+.page:hover, .page.gradient:hover {
+    background: #f66c27;
+}
+.page.active {
+    border: none;
+    background: #f66c27;
 }
 /*
  * CSS Intro
